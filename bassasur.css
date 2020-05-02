@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light+Two&display=swap');
+
+/* Header Text */
+
+div.headtext h1{
+	font-family: 'Teko', sans-serif;
+	font-size: 120px;
+}
+
+div.headtext p{
+	font-size: 35px;
+	font-family: 'Shadows Into Light Two', cursive;
+}
+
+/* Logo  */
+
+a.navbar-brand{
+	font-family: 'Teko', sans-serif;
+	font-size: 40px;
+	margin:0px;
+	padding:0px;
+}
+
+/* Social Button Styling */
+
+.youtube:hover{
+	background-color: red;
+	border-color: red;
+}
+
+.soundcloud:hover{
+	background-color: brown;
+	border-color: brown;
+}
+
+.instagram:hover{
+	background-color: orange;
+	border-color: orange;
+}
+
+.submitbutton{
+	font-size: 30px;
+}
+
+/* Header bg image */
+
+header.text-white{
+	background:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(headerpic.jpg);
+	background-size: cover;
+}
+
+/*  sOCIAL bUTTONS */
+
+.fab {
+  padding: 16px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.fa-youtube {
+  background: #ffffff;
+  color: black;
+}
+
+.fa-soundcloud {
+  background: #ffffff;
+  color: black;
+}
+
+.fa-instagram {
+  background: #ffffff;
+  color: black;
+}
+
+/* Submit Button */
+
+button.submitbutton{
+	background-color: #FF4B2C;
+	font-family: 'Shadows Into Light Two', sans-serif;
+	font-size:40px;
+}
